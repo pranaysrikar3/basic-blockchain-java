@@ -36,8 +36,6 @@ mvn clean install
 mvn exec:java -Dexec.mainClass="org.example.Main"
 
 3.Expected output (example):
-
-
 Block mined: 00a8b9f6...
 Block mined: 009c1d2a...
 Block mined: 003f6b7e...
@@ -54,6 +52,7 @@ Block #3 [hash: 003f6b7e...]
 Data: Charlie pays Dave 2 coins
 Previous Hash: 009c1d2a...
 -------------------------------------
+
 
 📖 Explanation
 
@@ -82,7 +81,6 @@ Implement blockchain validation logic.
 Create a simple frontend to visualize the chain.
 
 👨‍💻 Made as a learning project to understand blockchain basics in Java.
-
 
 ---
 
